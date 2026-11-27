@@ -4,8 +4,6 @@ This repository estimates quarter-to-quarter labor-market and school-to-work tra
 
 The project started during my research assistantship at the Observatório do Trabalho, a labor-market research unit of the Government of Pernambuco. All data are public, so the results can be reproduced in full.
 
-![Where unemployed youth are one quarter later, Pernambuco](figures/fig1_unemployed_PE.png)
-
 ## What the code does
 
 1. **Data pipeline.** Reads 13 years of partitioned PNADc parquet files with `arrow`, pushing the state filter down to the file reader, and assembles about 3.8 million person-quarter records.
